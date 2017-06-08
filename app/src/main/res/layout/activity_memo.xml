@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dudco.and_study_0516.MemoActivity"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/memo_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:hint="제목"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="30sp"
+        android:background="#fff"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#000" />
+
+    <EditText
+        android:id="@+id/textbox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="입력하세요..."
+        android:padding="15dp"
+        android:background="#fff"
+        android:gravity="top"/>
+
+</LinearLayout>
